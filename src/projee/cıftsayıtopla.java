@@ -1,13 +1,13 @@
 package projee;
 import java.util.Scanner;
-public class cıftsayıtopla {
+public class cÄ±ftsayÄ±topla {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 				Scanner scan = new Scanner(System.in);
 				int toplam = 0;
-				System.out.println("Kaçıncı sayıya kadar olan çift sayıların toplamını istiyorsunuz: ");
+				System.out.println("KaÃ§Ä±ncÄ± sayÄ±ya kadar olan Ã§ift sayÄ±larÄ±n toplamÄ±nÄ± istiyorsunuz: ");
 				int deger = scan.nextInt();
 				int i = 0;
 				while (i < deger) {
@@ -16,7 +16,7 @@ public class cıftsayıtopla {
 					}
 					i++;
 				}
-				System.out.printf("%d e kadar olan çift sayılar toplamı: %d", deger, toplam);
+				System.out.printf("%d e kadar olan Ã§ift sayÄ±lar toplamÄ±: %d", deger, toplam);
 			
 
 
